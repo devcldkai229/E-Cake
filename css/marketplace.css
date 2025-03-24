@@ -1,0 +1,12 @@
+
+/* Ẩn spin buttons trong Chrome, Edge và Safari */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Ẩn spin buttons trong Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
